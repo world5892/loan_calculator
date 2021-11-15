@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan Calculator Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <article id="main-article">
+    <div id="container-top" class="container">
+      <div class="calculations">
+        <h1>Loan Calculator</h1>
+        <form id="loan-form">
+          <div class="data">
+            <span class="symbol">$</span>
+            <input type="number" id="amount" placeholder="Loan Amount">
+          </div>
+          <div class="data">
+            <span class="symbol">%</span>
+            <input type="number" id="interest" placeholder="Interest">
+          </div>
+          <div class="data">
+            <input type="number" id="years" placeholder="Years To Repay">
+          </div>
+          <div class="data">
+            <input type="submit" value="Calculate" id="calculate">
+          </div>
+        </form>
+      </div>
+
+      <div id="gif">
+        <img src="img/loading.gif" alt="">
+      </div>
+    </div>
+  </article>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
